@@ -28,4 +28,17 @@ body { background:#fff url(../images/body_bg.png) repeat-x; }
 .top_bar .space { margin-right:12px; }
 
 
+#header { background:url(../images/header-decr.png) no-repeat 130px 0; width:960px; height:100px; margin:0 auto; position:relative;}
+#shopping {width:245px; height:100px; background:url(../images/header_bg.png) no-repeat; }
+#shopping p {font-size:20px; color:#f7f7f7; position:absolute; top:30px; left:86px;}
+#shopping a {display:block; width:114px;height:23px; position:absolute; top:62px; left:104px; font-size:15px; color:#ffc200; background:url(../images/header_bg.png) no-repeat 0 -103px; text-align:center; line-height:24px; text-decoration:none; font-weight:bold; }
+#shopping a:hover {color:#fff200;}
+
+#header h1 {position:absolute; margin-left:50%; left:-119px; top:0; }
+
+#header .search {display:none;}
+
+
+
+
 
