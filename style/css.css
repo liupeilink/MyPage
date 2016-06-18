@@ -55,9 +55,9 @@ body { background:#fff url(../images/body_bg.png) repeat-x; }
 
 #content { width:1000px; margin:24px auto 0; background:url(../images/content_bg.png) repeat-y -1000px 0; }
 #content_top { width:1000px;  background:url(../images/content_bg.png) no-repeat 0 0; }
-#content_bottom { width:1000px;  background:url(../images/content_bg.png) no-repeat -2000px bottom; }
+#content_bottom { width:1000px;  background:url(../images/content_bg.png) no-repeat -2000px bottom; padding-top:10px;}
 
-#ad { position:relative; width:940px; height:300px; margin: 0 auto; top:10px;}
+#ad { position:relative; width:940px; height:300px; margin: 0 auto; }
 #ad ul { position:absolute; top:0; left:0; z-index:1; }
 #ad li { position:absolute; top:0; left:0; }
 #ad h2 { position:absolute; bottom:12px; left:20px; color:#ffc600; font-size:25px; font-weight:bold; z-index:3; }
@@ -65,3 +65,27 @@ body { background:#fff url(../images/body_bg.png) repeat-x; }
 #ad .bg { position:absolute; bottom:0; left:0; width:940px; height:52px; background:#000; filter:alpha(opacity:80); opacity:0.8; z-index:2; }
 
 
+#main {  width:942px; margin:0 auto;  margin-top: 30px;}
+#side {  width:210px; float:left;}
+#wrap {  width:706px; float:right;}
+
+
+.clear { zoom:1; }
+.clear:after{
+	content: ".";
+	height:0;
+	display:block;
+	visibility:hidden;
+	clear:both;
+}
+
+#side h2 { line-height:28px; text-align:center; font-size: 15px; font-weight:bold; color:#fff;  height: 30px; background: url(../images/side_bg.png) repeat-x 0 -30px;}
+#side h2 strong {  display:block;height:30px; background: url(../images/side_bg.png) no-repeat;}
+#side h2 span { display:block;height:30px;background: url(../images/side_bg.png) no-repeat right -60px; }
+
+#side .list {background: url(../images/side_bg2.png) repeat-y -210px 0; }
+#side ul{background: url(../images/side_bg2.png) no-repeat 0 bottom; padding:18px 8px;}
+
+#side li { height:30px; }
+#side li a { display:block; height:30px; font-size: 12px; font-weight: bold; color:#434343;line-height: 30px; border-bottom: 1px solid #fff; padding-left: 32px;}
+#side li a:hover {text-decoration: none; color:#b20e00; border-bottom: 1px solid #b20e20;}
